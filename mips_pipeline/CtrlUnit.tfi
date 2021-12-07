@@ -1,0 +1,32 @@
+
+
+
+// Instantiate the module
+CtrlUnit instance_name (
+    .inst(inst), 
+    .wreg_ex(wreg_ex), 
+    .wreg_mem(wreg_mem), 
+    .RegFileWtAddr_ex(RegFileWtAddr_ex), 
+    .RegFileWtAddr_mem(RegFileWtAddr_mem), 
+    .Mem2Reg_ex(Mem2Reg_ex), 
+    .Mem2Reg_mem(Mem2Reg_mem), 
+    .Cu_branch(Cu_branch), 
+    .Cu_shift(Cu_shift), 
+    .Cu_wmem(Cu_wmem), 
+    .Cu_Mem2Reg(Cu_Mem2Reg), 
+    .Cu_sext(Cu_sext), 
+    .Cu_aluc(Cu_aluc), 
+    .Cu_aluimm(Cu_aluimm), 
+    .Cu_wreg(Cu_wreg), 
+    .Cu_regrt(Cu_regrt), 
+    .j_address(j_address), 
+    .stall(stall), 
+    ._ex_aluout_rs(_ex_aluout_rs), 
+    ._mem_aluout_rs(_mem_aluout_rs), 
+    ._mem_memdata_rs(_mem_memdata_rs), 
+    ._ex_aluout_rt(_ex_aluout_rt), 
+    ._mem_aluout_rt(_mem_aluout_rt), 
+    ._mem_memdata_rt(_mem_memdata_rt)
+    );
+
+

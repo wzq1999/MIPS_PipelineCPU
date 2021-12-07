@@ -1,0 +1,39 @@
+
+
+
+// Instantiate the module
+id_stage instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .inst(inst), 
+    .reg_file_L_S(reg_file_L_S), 
+    .write_addr(write_addr), 
+    .write_data(write_data), 
+    .wreg_ex(wreg_ex), 
+    .wreg_mem(wreg_mem), 
+    .RegFileWtAddr_ex(RegFileWtAddr_ex), 
+    .RegFileWtAddr_mem(RegFileWtAddr_mem), 
+    .ALUoutputData_ex(ALUoutputData_ex), 
+    .ALUoutputData_mem(ALUoutputData_mem), 
+    .memoryOutputData_mem(memoryOutputData_mem), 
+    .Mem2Reg_ex(Mem2Reg_ex), 
+    .doBranch_id(doBranch_id), 
+    .shift_id(shift_id), 
+    .wmem_id(wmem_id), 
+    .Mem2Reg_id(Mem2Reg_id), 
+    .sext_id(sext_id), 
+    .aluc_id(aluc_id), 
+    .aluimm_id(aluimm_id), 
+    .wreg_id(wreg_id), 
+    .regrt_id(regrt_id), 
+    .rsData_id(rsData_id), 
+    .rtData_id(rtData_id), 
+    .RdAddr_id(RdAddr_id), 
+    .Imm_id(Imm_id), 
+    .j_address_id(j_address_id), 
+    .RtAddr(RtAddr), 
+    .imm_for_branch(imm_for_branch), 
+    .stall(stall)
+    );
+
+
